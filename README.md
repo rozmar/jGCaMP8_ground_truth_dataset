@@ -1,5 +1,14 @@
 # how to download and use the jGCaMP8 ground truth dataset (NWB_tutorial.ipynb)
 
+## To install this script and dependencies, type in terminal (in a directory you want to have this script):
+```
+git clone https://github.com/rozmar/jGCaMP8_ground_truth_dataset.git
+cd jGCaMP8_ground_truth_dataset
+conda create --name GCaMP8Mouse python=3.7
+conda activate GCaMP8Mouse
+conda install --channel=conda-forge dandi pynwb h5py hdf5 matplotlib
+pip install nwbwidgets jupyterlab
+```
 
 ## The data generated with this pipeline is in the following DANDIset:
 https://dandiarchive.org/dandiset/000168/
@@ -21,15 +30,6 @@ The dataset contains:
 - the fluorescence traces for all ROIs
 - details of the drifting gratings stimuli presented to the contralateral eye
 
-#### To install this script and dependencies, type in terminal (in a directory you want to have this script):
-```
-git clone https://github.com/rozmar/jGCaMP8_ground_truth_dataset.git
-cd jGCaMP8_ground_truth_dataset
-conda create --name GCaMP8Mouse python=3.7
-conda activate GCaMP8Mouse
-conda install --channel=conda-forge jupyter dandi pynwb h5py hdf5 matplotlib
-pip install nwbwidgets
-```
 
 ## Download data - optional
 You can either stream data from DANDI archives, download the whole dataset, or download the data of a single cell. <br>

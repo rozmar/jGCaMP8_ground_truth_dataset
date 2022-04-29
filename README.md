@@ -4,9 +4,8 @@
 ```
 git clone https://github.com/rozmar/jGCaMP8_ground_truth_dataset.git
 cd jGCaMP8_ground_truth_dataset
-conda create --name GCaMP8Mouse python=3.7
+conda create --name GCaMP8Mouse python=3.7 --channel=conda-forge dandi pynwb h5py hdf5 matplotlib
 conda activate GCaMP8Mouse
-conda install --channel=conda-forge dandi pynwb h5py hdf5 matplotlib
 pip install nwbwidgets jupyterlab
 ```
 

@@ -1,17 +1,18 @@
 ## How to download and use the jGCaMP8 mouse ground truth dataset (NWB_tutorial.ipynb)
 
-## To install this script and dependencies, type in terminal or anaconda prompt:
+## To install the dependencies for this notebook, type in terminal or anaconda prompt:
 ```
-git clone https://github.com/rozmar/jGCaMP8_ground_truth_dataset.git
 conda create --name GCaMP8Mouse dandi pynwb h5py hdf5 matplotlib python=3.8 --channel=conda-forge
 conda activate GCaMP8Mouse
 pip install nwbwidgets jupyterlab
 ```
-## To start the script:
+## To download and start the script:
 ```
+git clone https://github.com/rozmar/jGCaMP8_ground_truth_dataset.git
 cd jGCaMP8_ground_truth_dataset
 jupyter-notebook NWB_tutorial.ipynb
 ```
+(Alternatively, just download the NWB_tutorial.ipynb instead of the first two lines.)
 ## The data is in the following DANDIset:
 https://dandiarchive.org/dandiset/000168/
 

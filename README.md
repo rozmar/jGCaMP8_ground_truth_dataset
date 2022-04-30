@@ -1,4 +1,4 @@
-# how to download and use the jGCaMP8 ground truth dataset (NWB_tutorial.ipynb)
+## How to download and use the jGCaMP8 mouse ground truth dataset (NWB_tutorial.ipynb)
 
 ## To install this script and dependencies, type in terminal or anaconda prompt:
 ```

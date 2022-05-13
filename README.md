@@ -1,4 +1,4 @@
-## How to download and use the jGCaMP8 mouse ground truth dataset (NWB_tutorial.ipynb)
+# How to download and use the jGCaMP8 mouse ground truth dataset
 
 ## To install the dependencies for this notebook, type in terminal or anaconda prompt:
 ```
@@ -24,11 +24,11 @@ https://doi.org/10.1101/2021.11.08.467793
 This dataset contains simultaneous 2-photon calcium imaging movies and loose-seal cell attached recordings of upper layer 2 pyramidal cells and interneurons of the primary visual cortex of wild type mouse, in vivo, during drifting gratings stimulus in the contralateral eye.
 jGCaMP8f, jGCaMP8m, jGCaMP8s, jGCaMP7f and XCaMPgf were expressed via AAV injections using synapsin-1 promoter.
 
-Multiple neruons were recorded in each mouse, and multiple ~3-minutes-long recordings (movies/sweeps) were performed for each cell. One .nwb file contains all the data for a given cell. 
+Multiple neurons were recorded in each mouse, and multiple ~3-minutes-long recordings (movies&sweeps) were performed for each cell. One .nwb file contains all the data for a given cell. 
 
 The dataset contains:
-- raw 2-photon movies
-- raw cell attached loose-seal electrophysiology traces of a single neuron in the field of view
+- motion corrected 2-photon movies
+- raw cell attached loose-seal electrophysiology traces of a single neuron in the imaging field of view
 - somatic cellular and neuropil ROIs that were segmented with Suite2p
 - the fluorescence traces for all ROIs
 - details of the drifting gratings stimuli presented to the contralateral eye
